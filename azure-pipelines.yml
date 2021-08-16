@@ -44,7 +44,7 @@ stages:
           displayName: Test
           inputs:
             command: test
-            projects: '!**/*UnitTest*.csproj'
+            projects: '**/*UnitTest*.csproj'
             arguments: '--configuration $(BuildConfiguration)'
         
         - task: DotNetCoreCLI@2
