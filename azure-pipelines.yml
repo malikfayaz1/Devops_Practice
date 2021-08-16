@@ -1,14 +1,7 @@
-pr:
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-  branches:
-    include:
-      - dev
-  paths:
-    exclude:
-      - docs/*
-      - README.md
+# .NET Desktop
+# Build and run tests for .NET Desktop or Windows classic desktop solutions.
+# Add steps that publish symbols, save build artifacts, and more:
+# [Link removed to avoid odd formatting.]
 
 trigger:
   branches:
